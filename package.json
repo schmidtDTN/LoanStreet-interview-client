@@ -4,7 +4,7 @@
   "description": "Sample Client for the LoanStreet API Development Test",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -p ."
+    "demo": "npm i && tsc -p . && node dist/index.js"
   },
   "repository": {
     "type": "git",
